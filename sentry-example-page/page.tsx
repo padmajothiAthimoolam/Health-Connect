@@ -68,7 +68,7 @@ export default function Page() {
 
         <p>
           Next, look for the error on the{" "}
-          <a href="https://javascript-mastery.sentry.io/issues/?project=4507458386526208">
+          <a href="https://padmajothi-z3b.sentry.io/issues/?project=4507896492130304">
             Issues Page
           </a>
           .
