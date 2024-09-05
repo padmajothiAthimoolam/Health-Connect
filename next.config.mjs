@@ -46,7 +46,7 @@ automaticVercelMonitors: true,
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
 
-org: "self-z3b",
+org: "padma",
 project: "javascript-nextjs",
 
 // Only print logs for uploading source maps in CI
