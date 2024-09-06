@@ -8,25 +8,27 @@
   ],
   "rules": {
     "no-undef": "off",
-    "import/order": [
-      "error",
-      {
-        // "groups": [
-        //   "builtin",
-        //   "external",
-        //   "internal",
-        //   "parent",
-        //   "sibling",
-        //   "index"
-        // ],
-        "groups": [
-          ["builtin", "external"]
-        ],
-        "newlines-between": "always",
-        "alphabetize": {
-          "order": "asc",
-          "caseInsensitive": true
-        }
+    "import/order": "off"
+    // "import/order": [
+    //   "error",
+    //   {
+    //     // "groups": [
+    //     //   "builtin",
+    //     //   "external",
+    //     //   "internal",
+    //     //   "parent",
+    //     //   "sibling",
+    //     //   "index"
+    //     // ],
+    //     "groups": [
+    //       ["builtin", "external"]
+    //     ],
+    //     "newlines-between": "always",
+    //     "alphabetize": {
+    //       "order": "asc",
+    //       "caseInsensitive": true
+    //     }
+  
       }
     ]
   }
