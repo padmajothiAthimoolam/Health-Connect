@@ -5,20 +5,7 @@
 import * as Sentry from "@sentry/nextjs";
 
 Sentry.init({
-  dsn: "https://42eab4d68f98b845a2a53ac1fb118e59@o4507896066277376.ingest.us.sentry.io/4507896492130304",
-
-  // Add optional integrations for additional features
-  integrations: [
-    Sentry.replayIntegration(),
-  ],
-
-  // Define how likely Replay events are sampled.
-  // This sets the sample rate to be 10%. You may want this to be 100% while
-  // in development and sample at a lower rate in production
-  replaysSessionSampleRate: 0.1,
-
-  // Define how likely Replay events are sampled when an error occurs.
-  replaysOnErrorSampleRate: 1.0,
+  dsn: "https://4daf65f23bdb58c2afa14830df263e0c@o4507903438815232.ingest.us.sentry.io/4507903440257024",
 
   // Setting this option to true will print useful information to the console while you're setting up Sentry.
   debug: false,
